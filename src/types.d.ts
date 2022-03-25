@@ -6,3 +6,8 @@ type Todo = {
 }
 
 type ToggleComplete = (selectedTodo: Todo) => void;
+
+type Option = {
+  value: string;
+  onClick: () => void;
+}
