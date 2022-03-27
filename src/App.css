@@ -85,7 +85,7 @@ ul {
 
 .todo-row {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 4px auto;
@@ -97,4 +97,40 @@ ul {
 
 .todo-row input {
   margin-right: 10px;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.dropdown-list-container {
+  transform-origin: top;
+  position: absolute;
+  padding: 10px 0px;
+  right: 0rem;
+  margin-top: 2rem;
+  border-radius: 0.376rem;
+  box-shadow: 0 10px 15px -3px grey;
+  background-color: white;
+}
+
+.dropdown-list-btn {
+  background-color: white;
+  border: none;
+  padding: 10px 30px;
+}
+
+.dropdown-list-btn:hover {
+  background-color: #eaeaea;
+}
+
+.edit-input {
+  border: none;
+}
+
+.red {
+  color: red;
 }

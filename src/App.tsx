@@ -22,6 +22,16 @@ function App() {
     }
   };
 
+  const removeTodo: RemoveTodo = todoToRemove => {
+    let updatedTodos: Array<Todo> = todos.filter(todo => todo.text != todoToRemove.text);
+    setTodos(updatedTodos);
+  }
+
+  const editTodo: EditTodo = todoToEdit => {
+    let todoToUpdateIndex: number = todos.findIndex(todo => todo.text == todoToEdit.text);
+    console.log(todoToUpdateIndex);
+  }
+
   return (
     <div className="todo-app">
       <header>
@@ -30,7 +40,7 @@ function App() {
         </h1>
       </header>
       <TodoForm addTodo={addTodo}/>
-      <TodoList todos={todos} toggleComplete={toggleComplete}/>
+      <TodoList todos={todos} toggleComplete={toggleComplete} onRemoveTodo={removeTodo} editTodo={editTodo}/>
     </div>
   );
 };
