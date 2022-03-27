@@ -112,8 +112,8 @@ ul {
   padding: 10px 0px;
   right: 0rem;
   margin-top: 2rem;
-  border-radius: 0.376rem;
-  box-shadow: 0 10px 15px -3px grey;
+  border-radius: 0.375rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   background-color: white;
 }
 
