@@ -17,7 +17,7 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({ todo, toggleComplete
   }
 
   const onEdit = () => {
-    console.log('edit');
+    setIsEditOn(true);
   }
 
   const onTodoUpdate = (e: any) => {
