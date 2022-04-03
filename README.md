@@ -1,11 +1,12 @@
 # TypeScript Tutorial
 
 Get quickly started with TypeScript by building a Todo App.
-This project is built using [TypeScript and React by running](https://create-react-app.dev/docs/adding-typescript/)
+This project is built using [Create React App](https://create-react-app.dev/docs/adding-typescript/)
 
 ![App Image](./public/app-image.png)
 
-For a video tutorial, watch [this video on YouTube](https://www.youtube.com/watch?v=BUh12mwkH_8&t=677s)
+For a video tutorial on how to create a Todo App and add items, please watch [this video on YouTube](https://www.youtube.com/watch?v=BUh12mwkH_8)
+[Video](https://www.youtube.com/watch?v=CUJoDbN-MM8) on how to edit & delete items from Todo.
 
 ## Available Scripts
 
