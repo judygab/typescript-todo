@@ -35,6 +35,7 @@ export const TodoListItem: React.FC<TodoListItemProps> = ({ todo, toggleComplete
     {
       value: "Edit",
       onClick: onEdit,
+      color: "blue",
     }
   ]
   return (
