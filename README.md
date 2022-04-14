@@ -1,7 +1,7 @@
 # TypeScript Tutorial
 
 Get quickly started with TypeScript by building a Todo App.
-This project is built using [TypeScript and React by running](https://create-react-app.dev/docs/adding-typescript/)
+This project is built using [TypeScript and React](https://create-react-app.dev/docs/adding-typescript/)
 
 ![App Image](./public/app-image.png)
 
